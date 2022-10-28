@@ -35,6 +35,7 @@
 .links{
     text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 .links:hover{
     transition-duration: 2s;
