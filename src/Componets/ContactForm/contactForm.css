@@ -1,0 +1,41 @@
+.contact-form{
+    position: relative;
+    z-index: 2;
+    border: 1px purple solid;
+    width: 80%;
+    align-self: center;
+    margin: 5rem 10%;
+    margin-bottom: 0rem;
+    padding-bottom: 4rem;
+    box-shadow: 0px 0px 8px 8px purple,0px 0px 8px 8px rgb(128, 0, 0);
+}
+.input-container{
+    width: 80%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0rem 9%;
+  
+}
+
+.name-input{
+    height: 2rem;
+    border: transparent;
+    border-radius: 0.3rem;
+    padding: 0rem 1%;
+}
+.email-input{
+    height: 2rem;
+    border: transparent;
+    border-radius: 0.3rem;
+    padding: 0rem 1%;
+}
+
+.message-input{
+    padding: 1rem 1%;
+}
+.label{
+    color: white;
+    text-align: left;
+}

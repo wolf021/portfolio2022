@@ -1,0 +1,269 @@
+.home{
+    width: 100%;
+    
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.hero-section{
+    
+    height: 70vh;
+    width: 100%;
+padding: 10rem 3rem;
+
+margin-top: -5rem;
+
+   
+}
+.social-media{
+    position: relative;
+    z-index: 100;
+    height: 10rem;
+    width: 90%;
+    margin-top: -8rem;
+   text-align: center;
+   align-content: center;
+  
+}
+.social-media-conainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-self: center;
+    padding: 8rem 23%;
+}
+.social-media-conainer:before{
+   content: "___________";
+   color: red;
+}
+.social-media-conainer:after{
+   content: "____________";
+   color: red;
+}
+
+
+.info-container{
+    
+    position: relative;
+    align-items: center;
+    align-content: center;
+   width: 92%;
+    text-align: center;
+    padding: 10rem 0rem;
+    margin-top: -6rem;
+    
+  
+
+}
+.info-title{
+    font-size: 8rem;
+    color: white;
+}
+.info-title::before{
+    content: "________________________";
+    font-size: 1rem;
+    color: red;
+    
+}
+.info-title::after{
+    content: "________________________";
+    font-size: 1rem;
+    color: red;
+}
+
+.before-title{
+    color: red;
+   width: max-content;
+    justify-content: flex-start;
+    font-size: 3rem;
+    margin-left: 20.5rem;
+}
+
+.services-section{
+  height: 70vh;
+  text-align: center;
+  z-index: 1;
+}
+
+.services-title{
+    font-size: 3rem;
+    color: white;
+}
+.services-info{
+    color: white;
+    font-size: 2rem;
+}
+.services-info:before{
+    content: "_________";
+    color: red;
+}
+.services-info:after{
+    content: "_________";
+    color: red;
+}
+.services-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10rem 0rem;
+    flex-wrap: wrap;
+}
+.tools-section{
+    margin: 10rem 0rem;
+    height: 80vh;
+  text-align: center;
+    text-align: center;
+    color: white;
+    
+}
+.tools-title{
+    font-size: 3rem;
+    color: white;
+}
+.tools-info{
+    color: white;
+    font-size: 2rem;
+}
+.tools-info:before{
+    content: "_________";
+    color: red;
+}
+
+.tools-info:after{
+    content: "_________";
+    color: red;
+}
+.tools-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 10rem 0rem;
+    padding-left: 6rem;
+}
+
+.testimonial-section{
+text-align: center;
+
+}
+
+.testimonial-title{
+    font-size: 3rem;
+    color: white;
+}
+.testimonial-info{
+    color: white;
+    font-size: 2rem;
+}
+.testimonial-info:before{
+    content: "_________";
+    color: red;
+}
+
+.testimonial-info:after{
+    content: "_________";
+    color: red;
+}
+
+.testimonial-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10rem 0rem;
+    flex-wrap: wrap;
+
+}
+.contact-section{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-title{
+        font-size: 3rem;
+        color: white;
+    }
+    .info-container{
+        width: 10%;
+        
+    }
+    .before-title{
+        color: red;
+       width: max-content;
+        justify-content: flex-start;
+        font-size: 1rem;
+        margin-left: 5.2rem;
+    }
+    .info-title::before{
+        content: "__________";
+        font-size: 1rem;
+        color: red;
+        
+    }
+    .info-title::after{
+        content: "____________";
+        font-size: 1rem;
+        color: red;
+    }
+    .social-media-conainer{
+        width:100%;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        align-self: center;
+        padding: 8rem 0rem;
+    }
+    .social-media{
+        width: 80%;
+    }
+    .services-cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 10rem 0rem;
+        flex-wrap: wrap;
+        
+    }
+    .tools-section{
+        margin-top: 40rem;
+        height: 70vh;
+      text-align: center;
+        text-align: center;
+        color: white;
+        margin-bottom: 35rem;
+    }
+    .tools-container{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10rem 3rem;
+        margin-left: 1rem;
+        
+    }
+    .testimonial-section{
+        text-align: center;
+        
+        }
+        .testimonial-info:before{
+            content: "_______";
+            color: red;
+        }
+        
+        .testimonial-info:after{
+            content: "_______";
+            color: red;
+        }
+        .social-media-conainer:before{
+            content: "______";
+            color: red;
+         }
+         .social-media-conainer:after{
+            content: "______";
+            color: red;
+         }
+         
+  }

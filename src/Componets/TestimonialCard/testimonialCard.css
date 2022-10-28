@@ -1,0 +1,54 @@
+.testimonial-container{
+    position: relative;
+    z-index: 2;
+    height: 15rem;
+    width: 28%;
+    color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: rgba(0, 0, 0, 0.592);
+   border-radius: 2rem;
+   padding: 0rem 1rem;
+
+
+}
+.testimonialCard-title{
+    color: white;
+    font-size: 2rem;
+    
+}
+.testimonialCard-title::before{
+    content: " __";
+    color: red;
+    
+}
+.testimonialCard-title::after{
+    content: " __";
+    color: red;
+    }
+
+    .testimonial-container:hover{
+        transition: 2s;
+    box-shadow: 2px 2px 2px 2px purple,  3px 3px 2px 2px rgba(9, 0, 128, 0.602);
+    opacity: 0.8;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .testimonial-container{
+            position: relative;
+            z-index: 2;
+            height: 15rem;
+            width: 83%;
+            color: white;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-evenly;
+           background-color: rgba(0, 0, 0, 0.592);
+           border-radius: 2rem;
+           padding: 0rem 1rem;
+           margin-bottom: 1rem;
+        
+        
+        }
+    }

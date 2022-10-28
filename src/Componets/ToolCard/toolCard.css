@@ -1,0 +1,36 @@
+.toolCard-contaiiner{
+    height: 6rem;
+    width: 8rem;
+    background-color: rgba(0, 0, 0, 0.566);
+    border-radius: 2rem;
+    padding: 2rem 0rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+    
+
+}
+.toolsCard-title{
+    font-size: 1.3rem;
+}
+.toolCard-contaiiner:hover{
+    
+    transition: 2s;
+    box-shadow: 2px 2px 2px 2px purple,  3px 3px 2px 2px rgba(9, 0, 128, 0.602);
+    opacity: 0.8;
+
+}
+@media only screen and (max-width: 600px) {
+    .toolCard-contaiiner{
+        height: 6rem;
+        width: 8rem;
+        background-color: rgba(0, 0, 0, 0.566);
+        border-radius: 2rem;
+        padding: 2rem 0rem;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 1rem;
+        
+    
+    }
+}

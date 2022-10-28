@@ -1,0 +1,19 @@
+.button-container{
+    background: rgb(170,31,31);
+background: linear-gradient(135deg, rgba(170,31,31,1) 6%, rgba(67,31,170,1) 48%);
+    height: 3rem;
+   width: 10rem;
+   border: 2px white solid;
+   border-radius: 1.5rem;
+   color: white;
+   transition: 1s ;
+   font-size: 1rem;
+    
+}
+.button-container:hover{
+    background: transparent;
+    color: rgb(253, 253, 253);
+    border: 2px rgb(255, 255, 255) solid;
+    cursor: pointer;
+    transition: 1s ;
+}
