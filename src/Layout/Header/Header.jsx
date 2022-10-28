@@ -37,10 +37,10 @@ const Header = () => {
        
         <div className="navlinks">
         
-            <a href='#services' ><p className="links">Services</p></a>
-            <a href='#tools' ><p className="links">Tools</p></a>
-            <a href='#reviews' ><p className="links">Reviews</p></a>
-            <a href='#Contact' ><p className="links">Contact</p></a>
+            <a className="links" href='#services' ><p >Services</p></a>
+            <a className="links" href='#tools' ><p >Tools</p></a>
+            <a className="links" href='#reviews' ><p >Reviews</p></a>
+            <a className="links" href='#Contact' ><p >Contact</p></a>
             
             
             
