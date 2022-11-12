@@ -1,9 +1,9 @@
 import React from 'react'
 import './button.css'
 
-const Button = ({Title,Type}) => {
+const Button = ({Title,Type,onClick}) => {
   return (
-    <button className="button-container" type={Type}>
+    <button className="button-container" type={Type} onClick={onClick}>
         <p className="button-title">
             {Title}
         </p>
@@ -11,4 +11,4 @@ const Button = ({Title,Type}) => {
   )
 }
 
-export default Button
+export default Button;

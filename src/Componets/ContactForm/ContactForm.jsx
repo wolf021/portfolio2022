@@ -9,11 +9,14 @@ const ContactForm = () => {
         const sendEmail = (e) => {
           e.preventDefault();
       
-          emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, process.env.YOUR_PUBLIC_KEY)
+          emailjs.sendForm("service_1cy2l06", "template_zlwnyet", form.current, "f9mlc2XpJXwz0bUxr")
             .then((result) => {
                 console.log(result.text);
+                alert("Your Email Has been Send")
+                
             }, (error) => {
                 console.log(error.text);
+                alert("Something went wrong retry")
             });
         };
   return (
@@ -26,7 +29,7 @@ const ContactForm = () => {
             <label  className='label'  >Message</label>
             <textarea className='message-input'  id="" cols="30" rows="10" placeholder='Message' name="message"></textarea>
         </div>
-        <Button Title="Send" Type="submit" className="contact-btn"/>
+        <Button Title="Send" Type="submit" className="contact-btn" />
     </form>
   )
 }
